@@ -1,0 +1,95 @@
+<style>
+body{
+background: url('http://media.architecturaldigest.com/photos/56830bbfb313ecbd18114a02/master/pass/buzz-worthy-buildings-2016-01.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+#brand{
+text-align: center;
+}
+.contents{
+text-align: center;
+background: black;
+color: white;
+}
+#targetelement{
+text-align: center;
+background: cyan;}
+</style>
+<html>
+  <body leftmargin=200>
+    <h1 id="brand">Yatish Constructions</h1>
+      <h2>Major projects:</h2>
+      <ul id="projects">
+        <li>Yatish homes</li>
+        <li>Yatish malls</li>
+        <li>Yatish Towers</li>
+      </ul>
+      <table border="2" class="contents" align="center">
+        <tr> 
+          <th colspan="2">Hierarchy</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+        </tr>
+        <tr>
+          <td>Yatish</td>
+          <td>CEO</td>
+        </tr>
+        <tr>
+          <td>Ramya</td>
+          <td>Senior manager</td>
+        </tr>
+        <tr>
+          <td>Rakshith</td>
+          <td>Manager</td>
+        </tr>
+        <tr>
+          <td>Abhishek</td>
+          <td>Senior Engineer</td>
+        </tr>
+      </table>
+      <br>
+      <p style="text-align:center;"><b>For any queries,</b></p>
+      <form>
+        <table border="1" class="contents" align="center">
+          <tr>
+            <th>Name:</th>
+            <th><input type="text" \></th>
+          </tr>
+          <tr>
+            <th>Designation:</th>
+            <td><input type="radio" name="designation">Student</input><input type="radio" name="designation">Working Individual</input>
+            </td>
+          </tr>
+          <tr>
+            <th>Interested in working with us?</th>
+            <td><input type="checkbox" name="Intrest">Yes</input><input type="checkbox" name="Intrest">No</input>
+            </td>
+          </tr>
+          <tr>
+            <th>Queries:</th>
+            <th><input type="text" \></th>
+          </tr>
+        </table>
+        <p style="text-align: center;"><input type="submit"></p>
+      </form>
+      <br>
+      <i>To contact us</i>
+      <a href="https://bit.ly/owm-weather" target="_blank">click here</a>
+	
+	<hr>
+	<br>
+	<h3 style="text-align: center;">Have a good day!</h3>
+<div style="text-align: center;"><button onclick="myFunction()">SURPRISE</button></div>
+<p id="targetElement"></p>
+
+<script>
+  function myFunction(){
+    document.getElementById('targetElement').innerHTML=new Date();
+  }
+</script>
+</body>
+</html>
